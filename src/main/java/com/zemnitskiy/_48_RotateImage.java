@@ -1,6 +1,6 @@
 package com.zemnitskiy;
 
-public class RotateImage_48 {
+public class _48_RotateImage {
   /*
   https://leetcode.com/problems/rotate-image
   You are given an n x n 2D matrix representing an image, rotate the image by 90 degrees (clockwise).
@@ -32,7 +32,7 @@ public class RotateImage_48 {
     public static void main(String[] args) {
         int[][] matrix = {{5, 1, 9, 11}, {2, 4, 8, 10}, {13, 3, 6, 7}, {15, 14, 12, 16}};
 
-        RotateImage_48.rotate(matrix);
+        _48_RotateImage.rotate(matrix);
     }
 
     public static void rotate(int[][] matrix) {
